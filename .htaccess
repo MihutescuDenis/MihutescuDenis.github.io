@@ -80,7 +80,7 @@ AddOutputFilterByType DEFLATE "application/atom+xml" \
 
 
 <IfModule mod_headers.c>
-Header set Cache-Control "max-age=2592000, public, must-revalidate"
+Header set Cache-Control "max-age=1928448000, public, must-revalidate"
 </IfModule>
 
 
