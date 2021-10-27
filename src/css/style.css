@@ -1051,11 +1051,24 @@ STOP FOOTER
 .fa-whatsapp:before {
   content: "\f232";
 }
+/* .fa-whatsapp-square:before {
+  content: "\f40c";
+} */
 .fa-phone:before {
   content: "\f095";
 }
 .fa-arrow-up:before {
   content: "\f062";
+}
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../webfonts/fa-brands-400.eot);
+  src: url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),
+    url(../webfonts/fa-brands-400.woff2) format("woff2"),
+    url(../webfonts/fa-brands-400.woff) format("woff");
 }
 .fab {
   font-family: "Font Awesome 5 Brands";
@@ -1063,6 +1076,15 @@ STOP FOOTER
 .fab,
 .far {
   font-weight: 400;
+}
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../webfonts/fa-solid-900.eot);
+  src: url(../webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),
+    url(../webfonts/fa-solid-900.woff2) format("woff2");
 }
 .fa,
 .far,
